@@ -16,7 +16,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".Bio" />
-        <activity android:name=".Gallery"></activity>
+        <activity
+            android:name=".Dinho"
+            android:label="@string/title_activity_dinho"
+            android:parentActivityName=".Main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.mue.ronaldinho.Main" />
+        </activity>
     </application>
 
 </manifest>
