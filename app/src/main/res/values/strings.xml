@@ -2,4 +2,5 @@
     <string name="app_name">Ronaldinho</string>
     <string name="description">The greatest player ever!</string>
     <string name="Gallery">Gallery</string>
+    <string name="title_activity_dinho">Dinho</string>
 </resources>
