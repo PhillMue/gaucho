@@ -7,6 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.app.mue.ronaldinho.Bio">
+    tools:context="com.app.mue.ronaldinho.Bio"
+    android:background="#050505">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Synopsis  Born on March 21, 1980, in Porto Alegre, Brazil, Ronaldinho came from a family of soccer players to reach the pinnacle of success in the sport. After a celebrated youth career, Ronaldinho became a key member of the Brazilian team that won the 2002 World Cup. He has played for clubs in Brazil, France, Spain and Italy, and twice been named FIFA World Player of the Year.  Early Life  Ronaldinho was born Ronaldo de Assis Moreira on March 21, 1980, in Porto Alegre, Brazil. His father, João Moreira, was a former professional soccer player who also worked as a welder in a shipyard, and his mother, Miguelina de Assis, was a cosmetics saleswoman who later became a nurse. Ronaldinho&apos;s older brother, Roberto Assis, was also a professional soccer player; Ronaldinho was surrounded by soccer from the day he was born. &quot;I come from a family where soccer has always been very present,&quot; he says. &quot;My uncles, my father and my brother were all players. Living with that kind of background, I learned a great deal from them. I tried to devote myself to it more and more with the passage of time.&quot;"
+        android:id="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff0b0b"
+        android:background="#050505" />
 </RelativeLayout>
